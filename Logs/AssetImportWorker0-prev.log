@@ -1,0 +1,451 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.34f1 (25266724e7bd) revision 2434663'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'uk' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Admin/Physics
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52575
+Successfully changed project path to: C:/Users/Admin/Physics
+C:/Users/Admin/Physics
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18800] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 96862467 [EditorId] 96862467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HR7V2QQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18800] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 96862467 [EditorId] 96862467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HR7V2QQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 67.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.34f1 (25266724e7bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Physics/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006378 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (717ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (598ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.5 KB). Loaded Objects now: 3532.
+Memory consumption went from 108.5 MB to 108.5 MB.
+Total: 3.451500 ms (FindLiveObjects: 0.370000 ms CreateObjectMapping: 0.181600 ms MarkObjects: 2.816400 ms  DeleteObjects: 0.081900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1045773.387109 seconds.
+  path: Assets/Textures/snow.jpg
+  artifactKey: Guid(38e85cc0ce7a14443865691ee37d3530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Textures/snow.jpg using Guid(38e85cc0ce7a14443865691ee37d3530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197ec04bea3e545687ac0d094cb1755e') in 0.127608 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(eba9078138b1642d79b7748cd38422d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Textures using Guid(eba9078138b1642d79b7748cd38422d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1514c8410ba00a6dcac2440202642a') in 0.007190 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.002978 seconds.
+  path: Packages/com.unity.testtools.codecoverage
+  artifactKey: Guid(37e2fae9013949daf3016af47382dd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.testtools.codecoverage using Guid(37e2fae9013949daf3016af47382dd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a26b7002931fba3277f6d32b650d8b6') in 0.007901 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.121840 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48155b2dd9b835d38858fe7f253a0a9') in 0.027117 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.666063 seconds.
+  path: Assets/Adam Character Pack/Adam
+  artifactKey: Guid(007ea9c8f47cb47d2b7710995a368780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam using Guid(007ea9c8f47cb47d2b7710995a368780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f40230b98a5d208eb2b58cb898a4550') in 0.008291 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050686 seconds.
+  path: Assets/Adam Character Pack/Adam/Adam.FBX
+  artifactKey: Guid(f12f2d44b2688054986e54861cc211dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Adam.FBX using Guid(f12f2d44b2688054986e54861cc211dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f386097fc444a935ce78edc742760bb2') in 1.466258 seconds 
+Number of asset objects unloaded after import = 866
+========================================================================
+Received Import Request.
+  Time since last request: 0.091211 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials
+  artifactKey: Guid(4e1417f84a68f49f191f0a176e141003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials using Guid(4e1417f84a68f49f191f0a176e141003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f19f2850331a3c235631263b2f31eda') in 0.009136 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035806 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/08 - Default 1.mat
+  artifactKey: Guid(cac45ac0cd34c44429eba3e8c09a5b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/08 - Default 1.mat using Guid(cac45ac0cd34c44429eba3e8c09a5b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7689e9e478dcfa13f33d6e810a90717f') in 0.042302 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_Torso_plastic.mat
+  artifactKey: Guid(07925cd01561e234a9ea2ee639a7fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_Torso_plastic.mat using Guid(07925cd01561e234a9ea2ee639a7fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba3411e5be071b4c13a3082c45b9d31') in 0.074686 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_Legs_plastic.mat
+  artifactKey: Guid(0d6e7fde78507af49b5f2c734df76115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_Legs_plastic.mat using Guid(0d6e7fde78507af49b5f2c734df76115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e581fe656ad344c9c7f4cc4e725664') in 0.067942 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/No Name.mat
+  artifactKey: Guid(b6cd6cd79d9daca4f8c69790d081a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/No Name.mat using Guid(b6cd6cd79d9daca4f8c69790d081a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42d98a83f8d17d4ccdd4fcc7caede77') in 0.014906 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_monitors.mat
+  artifactKey: Guid(371d27e98fd444d4c9de7b8acb1fe669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_monitors.mat using Guid(371d27e98fd444d4c9de7b8acb1fe669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95e1d5989e927063ca709040ef8c040') in 0.014756 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_Arms_rubber.mat
+  artifactKey: Guid(ec4e14df88f64804391814f9533ae8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_Arms_rubber.mat using Guid(ec4e14df88f64804391814f9533ae8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eb0944052283db59dbd2fe79b7fdce') in 0.049981 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_Mask_metal.mat
+  artifactKey: Guid(d7e030a772ae4b742b3aef0b953bdfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_Mask_metal.mat using Guid(d7e030a772ae4b742b3aef0b953bdfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fae5f5e5ad74337fa52c5bc0c46bdb4') in 0.013984 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_head_rubber.mat
+  artifactKey: Guid(17d9f35b6093f0a4ebff4a62de90632c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_head_rubber.mat using Guid(17d9f35b6093f0a4ebff4a62de90632c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5691b85d7a26523f93d8d0572ec3d892') in 0.051966 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_Torso_rubber.mat
+  artifactKey: Guid(f9a37b46587e5c84ebdfc7d92b322a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_Torso_rubber.mat using Guid(f9a37b46587e5c84ebdfc7d92b322a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50364160dd507b19aba9ee6472ba9140') in 0.062356 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Metal.mat
+  artifactKey: Guid(a46df87596c05c549b0cc587c6e60a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Metal.mat using Guid(a46df87596c05c549b0cc587c6e60a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5490b505ea3e773a3048df30c0bf1fbf') in 0.021591 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/09 - Default.mat
+  artifactKey: Guid(fc915a16e8c39f44c9cb435e1180b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/09 - Default.mat using Guid(fc915a16e8c39f44c9cb435e1180b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aae16b61f5a9528c439c166f3a20f90') in 0.018547 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_Arms_plastic.mat
+  artifactKey: Guid(a8bea89b2f705cc46925cd7427a523e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_Arms_plastic.mat using Guid(a8bea89b2f705cc46925cd7427a523e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab6fce27ec194887dc79fe5ed1d246c') in 0.067316 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_mask.mat
+  artifactKey: Guid(baea4cd9e9e3bd84db9a58fdc5ec9ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_mask.mat using Guid(baea4cd9e9e3bd84db9a58fdc5ec9ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9dd076127790bb02aff145d4f6c37e') in 0.030224 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/Adam_head_plastic.mat
+  artifactKey: Guid(76e465ee227cff34895e485b5d7647bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/Adam_head_plastic.mat using Guid(76e465ee227cff34895e485b5d7647bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187cf202e4f4f3ea004cc33bb512a258') in 0.068937 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Adam Character Pack/Adam/Materials/15 - Default.mat
+  artifactKey: Guid(c4a1a724d4f406545875e3d2282e9685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Materials/15 - Default.mat using Guid(c4a1a724d4f406545875e3d2282e9685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32b5991e6bf250a4bd3f308086f5418') in 0.016806 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.798548 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures
+  artifactKey: Guid(9edfa8818be3d4b5b8f31d5d0184bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures using Guid(9edfa8818be3d4b5b8f31d5d0184bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d612c2f20efee70e82715c89ed6b61a') in 0.003182 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049797 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Arms_a.tif
+  artifactKey: Guid(22f1a8de2f2bf5140a694d6ca361acf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Arms_a.tif using Guid(22f1a8de2f2bf5140a694d6ca361acf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe2449d6dda38595db918fc323771d0') in 0.042301 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Arms_sg.tif
+  artifactKey: Guid(fbc0cc85531b6af4781ca249de8a4cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Arms_sg.tif using Guid(fbc0cc85531b6af4781ca249de8a4cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f957d51f3253ad468e12f7b3541e98a') in 0.048275 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Arms_o.tif
+  artifactKey: Guid(60bf21ffa5e37094197ff298a5c4e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Arms_o.tif using Guid(60bf21ffa5e37094197ff298a5c4e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81fead82c4702318ab1fcb4e07911bf') in 0.031770 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Head_o.tif
+  artifactKey: Guid(cc867cbba869c064b8422650f41109f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Head_o.tif using Guid(cc867cbba869c064b8422650f41109f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656bdcd44c306f53a179b13789df1f76') in 0.027633 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Legs_a.tif
+  artifactKey: Guid(7ad125bd94bd44f43b8609557922509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Legs_a.tif using Guid(7ad125bd94bd44f43b8609557922509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea54b325cf7a35555e4a16a69e293d5') in 0.031488 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Torso_a.tif
+  artifactKey: Guid(d3dde87a0b05e494e993d2a444499f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Torso_a.tif using Guid(d3dde87a0b05e494e993d2a444499f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587f271b667ba7a6fbe10c9ec4409c74') in 0.026900 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Legs_n.tif
+  artifactKey: Guid(157a58fa64a27f448bca2a40efc50dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Legs_n.tif using Guid(157a58fa64a27f448bca2a40efc50dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120cffeccb5e138c022801f39e18613b') in 0.039041 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Legs_sg.tif
+  artifactKey: Guid(a90c6ffc99f2c534b83c17becc5cfcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Legs_sg.tif using Guid(a90c6ffc99f2c534b83c17becc5cfcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f2a0477cf593df01b48770acfbf8a7') in 0.040668 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Adam_Torso_sg.tif
+  artifactKey: Guid(4027d13f9e14de44a95ae2156585b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Adam_Torso_sg.tif using Guid(4027d13f9e14de44a95ae2156585b4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99de2d994b3672605730f8d989fbd1c') in 0.033352 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.894072 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Mask
+  artifactKey: Guid(9231d06d2405545e59f4abdba627bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Mask using Guid(9231d06d2405545e59f4abdba627bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9903d76913be43e6918ed92e34d77e') in 0.008142 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.258931 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Mask/Adam_mask_intact_a.tif
+  artifactKey: Guid(e7f78facada8b2940b0ae7d815be9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Mask/Adam_mask_intact_a.tif using Guid(e7f78facada8b2940b0ae7d815be9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ccb34e14b755da66b393b1a1f3d67c') in 0.029975 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adam Character Pack/Adam/Textures/Mask/Adam_mask_intact_o.tif
+  artifactKey: Guid(564162c521d2cba4fb93c5cc1f12ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Adam Character Pack/Adam/Textures/Mask/Adam_mask_intact_o.tif using Guid(564162c521d2cba4fb93c5cc1f12ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe329c08fda82b27b48547825a7dfd24') in 0.022155 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
